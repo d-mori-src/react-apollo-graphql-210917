@@ -7,5 +7,6 @@
 ```
 $ git clone https://github.com/d-mori-src/react-apollo-graphql-210917.git
 $ cd react-apollo-graphql-210917
+$ npm install
 $ npm start
 ```
