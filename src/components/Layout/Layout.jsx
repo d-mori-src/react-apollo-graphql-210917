@@ -2,8 +2,8 @@ import ApolloClient from 'apollo-boost';
 import { ApolloProvider } from 'react-apollo';
 import './css/blog.css';
 
-// const client = new ApolloClient({ uri: 'http://localhost:4000/graphql' });
-const client = new ApolloClient({ uri: "https://apollo-server.vercel.app" });
+const client = new ApolloClient({ uri: 'http://localhost:4000/graphql' });
+// const client = new ApolloClient({ uri: "https://xxx" });
 
 const Layout = ({ children }) => {
     return (
